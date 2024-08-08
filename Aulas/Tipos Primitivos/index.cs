@@ -42,6 +42,10 @@ namespace MeuApp {
             var y = 2.1;
             var z = "Gabriel";
             var k = 'G';
+            // object, tipo genérico que recebe qualquer valor ou objeto, não atribui um tipo do valor.
+            object x = 1;
+            object y = "Gabriel";
+            object z;
         }
     }
 }
