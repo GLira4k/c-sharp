@@ -13,13 +13,19 @@ namespace MeuApp
             //x--;
             // Console.WriteLine(x < 3);
 
-            int x = 30;
+            int idade = 18;
+            int maioridade = 21;
+            int idadeMaxima = 65;
 
-            if(x < 30){
-                Console.WriteLine("x é menor que 30");
+            if(idade >= maioridade && idade < idadeMaxima){
+                Console.WriteLine("Você é adulto");
+            } else if(idade > idadeMaxima){
+                Console.WriteLine("Você é um idoso");
             } else{
-                Console.WriteLine("x é maior ou igual a 30");
+                Console.WriteLine("Você é um jovem");
             }
+
+            Console.WriteLine("Finalizou o Programa");
         }
     }
 }
