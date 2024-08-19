@@ -16,7 +16,14 @@ namespace MeuApp
     {
         public static void Main(string[] args)
         {
-            
+           MeuMetodo();
+           RetornaNome("Gabriel", "Lira");
+        }
+        static void MeuMetodo(){
+            Console.WriteLine("Olá, mundo!");
+        }
+        static string RetornaNome(string nome, string sobrenome, int idade = 0){
+            return nome + sobrenome;
         }
 
 
