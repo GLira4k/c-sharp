@@ -17,6 +17,7 @@ namespace MeuApp
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Multiplicação");
             Console.WriteLine("4 - Divisão");
+            Console.WriteLine("5 - Sair");
 
             Console.WriteLine("------------");
             
@@ -32,6 +33,9 @@ namespace MeuApp
                 case 3: Multiplicacao();
                 break;
                 case 4: Divisao();
+                break;
+                case 5: Console.WriteLine("Obrigado por usar nossa calculadora!");
+                System.Environment.Exit(0);
                 break;
                 default: Console.WriteLine("Opção inválida");
                 Menu();
@@ -55,7 +59,7 @@ namespace MeuApp
             // Console.WriteLine($"O resultado da soma é: {v1 + v2}");
             // Console.WriteLine("O resultado da soma é: " + (v1 + v2));
             Console.WriteLine("O resultado da soma é: " + resultado);
-            //Console.ReadKey();
+            Console.ReadKey();
             Menu();
         }
 
@@ -70,7 +74,7 @@ namespace MeuApp
 
             float resultado = v1 - v2;
             Console.WriteLine("O resultado da subtração é: " + resultado);
-            // Console.ReadKey();
+            Console.ReadKey();
             Menu();
         }
 
@@ -85,6 +89,7 @@ namespace MeuApp
 
             float resultado = v1 / v2;
             Console.WriteLine("O resultado da divisão é: " + resultado);
+            Console.ReadKey();
             Menu();
         }
 
@@ -99,6 +104,7 @@ namespace MeuApp
 
             float resultado = v1 * v2;
             Console.WriteLine("O resultado da multiplicação é: " + resultado);
+            Console.ReadKey();
             Menu();
         }
     }
