@@ -7,19 +7,27 @@ namespace StopWatch
     {
         public static void Main(string[] args)
         {
-            Start(6);
+            Menu();
         }
 
         static void Menu()
         {
             Console.Clear();
 
-            Console.WriteLine("S = Segundo");
-            Console.WriteLine("M = Minuto");
-            Console.WreiteLine("0 = Sair");
-            Console.WreiteLine("Quanto tempo deseja contar?");
+            Console.WriteLine("S = Segundo => 10s = 10 segundos");
+            Console.WriteLine("M = Minuto => 1m = 60 segindos");
+            Console.WriteLine("0 = Sair");
+            Console.WriteLine("Quanto tempo deseja contar?");
 
-            string op = Console.ReadLine();
+            string data = Console.ReadLine().ToLower();
+
+            char type = char.Parse(data.Substring(data.Length - 1, 1));
+
+            int time = int.Parse(data.Substring(0, data.Length - 1 ))
+    
+            Console.WriteLine(type);
+
+            
         }
 
         static void Start(int time)
