@@ -7,7 +7,7 @@
 
     o conteudo tem que ser idêntico para dar true
 
-    também compara qualquer tipo de objeto do mesmo tipo
+    para comparar sempre temos que passar o mesmo tipo
 */
 
 
