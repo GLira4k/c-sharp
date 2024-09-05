@@ -1,7 +1,13 @@
 /*
     Equals
 
-    Tipo de comparação de Strings 
+    Tipo de comparação
+
+    Compara o texto inteiro, case sensetive
+
+    o conteudo tem que ser idêntico para dar true
+
+    também compara qualquer tipo de objeto do mesmo tipo
 */
 
 
