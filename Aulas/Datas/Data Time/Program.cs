@@ -19,6 +19,9 @@ namespace MeuApp
 
             var data2 = DateTime.Now;
             Console.WriteLine(data2);
+
+            var data3 = new DateTime(2001, 09, 11, 11, 00, 00);
+            Console.WriteLine(data3);
         }
     }
 }
