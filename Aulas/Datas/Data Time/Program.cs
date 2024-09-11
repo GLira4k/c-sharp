@@ -22,6 +22,10 @@ namespace MeuApp
 
             var data3 = new DateTime(2001, 09, 11, 11, 00, 00);
             Console.WriteLine(data3);
+
+            Console.WriteLine(data3.DayOfWeek);
+            Console.WriteLine((int)data3.DayOfWeek);
+            Console.WriteLine(data3.DayOfYear);
         }
     }
 }
